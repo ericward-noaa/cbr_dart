@@ -3,7 +3,7 @@
 on:
   schedule:
       # * is a special character in YAML so you have to quote this string
-    - cron:  '0 0 1 1,4,7,10 *'
+    - cron:  '0 0 1 3,6,9,12 *'
   push:
        paths:
        - 'code/get_data.R'
